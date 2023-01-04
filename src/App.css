@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+.checked {
+  color: orange;
+}
+.wrapper {
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blue {
+  background: #13b4ff;
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.purple {
+  background: #ab3fdd;
+  margin-right: 10px;
+}
+
+.wine {
+  background: #ae163e;
+  margin-right: 10px;
+}
+
+.bicycle-img {
+  width: 500px;
+  height: 500px;
+  border: 1px solid lightslategray;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.E-test {
+  display: flex;
+}
+.E-testInfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 70px;
+}
+.rating {
+  display: flex;
+}
+.rating p {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+}
+.price {
+  display: flex;
+}
+.price .tag {
+  padding-left: 10px;
+}
+.price .mrp {
+  color: red;
+  padding-left: 10px;
+  font-size: medium;
 }
 
-.App-link {
-  color: #61dafb;
+.price .off {
+  color: green;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.size {
+  display: flex;
+  margin-top: -30px;
+}
+
+.size p {
+  position: absolute;
+  top: 20%;
+  left: 49%;
+}
+.color {
+  display: flex;
+  margin-top: -25px;
+}
+.color .wrapper {
+  position: absolute;
+  top: 29%;
+  left: 50%;
+}
+
+.collect {
+  padding: 10px 50px;
+}
+
+.buy-btn {
+  display: flex;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.buy-btn .buy {
+  background-color: red;
+  color: #fff;
+  padding: 10px 55px;
+  margin-right: 10px;
+  border: none;
+}
+.buy-btn .add {
+  background-color: black;
+  color: #fff;
+  padding: 10px 55px;
+  margin-right: 10px;
+  border: none;
+}
+.fin-btn {
+  background-color: green;
+  color: #fff;
+  padding: 10px 115px;
+  margin-right: 10px;
+  border: none;
+  margin-left: 70px;
+  margin-top: 10px;
 }
